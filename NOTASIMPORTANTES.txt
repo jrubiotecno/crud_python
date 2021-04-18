@@ -1,0 +1,24 @@
+1. se creo un entorno virtual
+virtualenv venv ó virtualenv --python=python3 venv
+
+Esto crea la carpeta venv
+
+2. se inicia el entorno virtual
+
+(venv) C:\Users\jrubiotecno\....\AplicacionVentasPOO>venv\Scripts\activate.bat
+
+3. como instalar la app
+
+(venv) C:\Users\jrubiotecno\....\AplicacionVentasPOO>
+pip install --editable .
+
+
+--- LOGICA DE NEGOCIO ---
+Sera en servicios
+
+-- ABSTRACCIONES -- 
+Objetos sobre los cuales vamos a interactuar-- en este caso nuestro clientes
+
+
+4. Crear un cliente 
+>pv clients create
